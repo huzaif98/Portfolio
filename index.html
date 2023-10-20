@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huzaif - Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Poppins :wght@400; 600; 700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <header>
+    
+    <nav>
+     
+        <br>
+        <div class="hamburger-menu">
+          <button type="button" onclick="openNav()">&#9776;</button>
+         
+        </div>
+        <div class="left"><b>Huzaif's Portfolio</b></div>
+        <div class="right">
+        <div class="side-menu">
+          <button type="button" onclick="closeNav()" class="side-menu-close-btn">&#215;</button>
+          <br><br>
+          <a href="#">Home</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+          <a href="#">Social</a>
+        </div>
+        <!-- This is side bar css  -->
+        <style>
+          .hamburger-menu {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+            
+          }
+        
+          .hamburger-menu button {
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            outline: none;
+          }
+        
+          .hamburger-menu button:hover {
+            background-color: #ccc;
+          }
+        
+          .side-menu {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            width: 250px;
+            height: 100%;
+            background-color: rgb(112, 255, 229);
+            z-index: 2;
+            transition: left 0.3s;
+          }
+        
+          .side-menu a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+          }
+        
+          .side-menu a:hover {
+            background-color: #d8f640;
+          }
+        
+          .side-menu.open {
+            left: 0;
+          }
+        
+          .side-menu-close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: none;
+          }
+        
+          .side-menu.open .side-menu-close-btn {
+            display: block;
+          }
+
+          /* to remove sidebar from pc use given code  */
+          
+        </style>
+        
+        <script>
+          function openNav() {
+            document.querySelector('.side-menu').classList.add('open');
+          }
+        
+          function closeNav() {
+            document.querySelector('.side-menu').classList.remove('open');
+          }
+        </script>
+
+        <ul>
+          <li><a href="#">Home </li></a>
+          <li><a href="#">About Us</li></a>
+          <li><a href="/Contact.html">Contact </li></a>
+          
+        </ul>
+      </div>
+    </nav>
+    <hr>
+    <hr>
+    <nav1>
+      <ul>
+        <li><a href="#">Home </li></a>
+        <li><a href="#">About Us</li></a>
+        <li><a href="/Contact.html">Contact </li></a>
+      </ul>
+    </nav1>
+    <!-- <hr>
+    <hr> -->
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        <b> Hi, My Name is <span class="purpul">Huzaif</span>
+          <div> and I am Passionated in <!-- Element to contain animated typing -->
+            <span id="element98"></span>
+          </div>
+        </b>
+      </div>
+
+      <div class="rightSection">
+        <img
+          src="https://blogger.googleusercontent.com/img/a/AVvXsEjseFMPriZTzca8Dby4MpZNDMybAB6enjLhcQahopCrnaJVaVYQI07yYMDggiG2gqYofwvRsXs0qk2j9Ab5P1YlJCiBErawzVUdhtHnOuCxPeVR_7nw6mWCRF4Idt6kFW9TuGvFEfVsPw3sNpbDPJP9KsIQeWgzLDcFPK_70UptMIerS6UtrjEoFNhgebP9"
+          alt="Dev image">
+      </div>
+    </section>
+    <hr>
+    <br>
+
+    <hr>
+    <br>
+
+  </main>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+
+  <script class="purpul">
+    var typed = new Typed('#element98', {
+      strings: ['<span class="purpul"> Web Developer', '<span class="purpul">Video Editor', '<span class="purpul">Gamer', '<span class="purpul">Grafic Designer', '<span class="purpul">Web Designer', '<span class="purpul">Programmer',],
+      typeSpeed: 100,
+
+    });
+
+  </script>
+
+<script>function openNav() {
+  document.querySelector('.side-menu').classList.add('open');
+}
+
+function closeNav() {
+  document.querySelector('.side-menu').classList.remove('open');
+}
+</script>
+
+  </head>
+
+  <body>
+    <h1>Recommended Courses</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nemo. Corrupti illum necessitatibus corporis laudantium nobis, hic rerum expedita, ea qui libero doloremque, commodi quod. Recusandae nobis eveniet illum corrupti.
+Aliquid fuga sint sequi, in beatae cumque omnis maiores est accusamus nisi quisquam nemo fugiat! Corrupti illum ad voluptatum reprehenderit distinctio nisi dignissimos, consequuntur necessitatibus, dolore, sunt dicta ipsum explicabo?
+Facere quos dolor ut veniam minus qui nobis, nemo ab sunt quidem soluta explicabo vitae mollitia aut officiis saepe? Mollitia officiis aliquam nam vitae quod dolorem porro dolor at consequuntur!
+Possimus omnis quas blanditiis consectetur tempora, optio suscipit quod esse totam temporibus dolorem earum iusto, commodi, fugit ratione! Asperiores minima dignissimos eaque nisi, amet quidem distinctio vero illum architecto molestiae?
+Voluptatum maxime fugiat at assumenda magnam quis praesentium pariatur iure! Possimus, doloribus, esse eius voluptate molestias quibusdam excepturi sequi rerum ipsam, ab minima? Repudiandae ad doloremque molestias aliquam, sunt voluptatum.
+  </body>
+
+</html>
